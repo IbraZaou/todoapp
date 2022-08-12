@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/* TODO */
+
+h1{
+    margin-bottom: 3rem;
+    font-size: 5rem;
+    color: rgb(0, 0, 74);
+}
+
+#todo-list{
+    padding: 4rem;
+    width: 40%;
+    margin-top: 0;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+form input, button{
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 10px;
+    outline: none;
+    text-align: center;
+    margin: 1%;
+}
+
+form input{
+    width: 100%;
+    font-size: 2.5rem;
+}
+
+button{
+    cursor: pointer;
+}
+
+/* INVISIBLE PART */
+
+.item{
+    background-color: lightgrey;
+    width: 85%;
+    border-radius: 10px;
+    margin-top: 1rem;
+    padding: 1rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.item p{
+    font-size: 2rem;
+    flex: 1;
+    margin: 0;
+}
+
+.btn-delete, .btn-archive{
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.btn-delete{
+    color: red;
+}
+
+.btn-archive{
+    color: green;
+}
+
+.done{
+    text-decoration: line-through;
+    color: grey;
+    opacity: .7;
+}
