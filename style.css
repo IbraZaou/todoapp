@@ -8,13 +8,14 @@ body{
     align-items: center;
 
     font-family: 'Quicksand', sans-serif;
+    background-color: lightgrey;
 }
 
 
 /* TODO */
 
 h1{
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
     font-size: 5rem;
     color: rgb(0, 0, 74);
 }
@@ -52,7 +53,7 @@ button{
 /* INVISIBLE PART */
 
 .item{
-    background-color: lightgrey;
+    background-color: grey;
     width: 85%;
     border-radius: 10px;
     margin-top: 1rem;
@@ -83,6 +84,6 @@ button{
 
 .done{
     text-decoration: line-through;
-    color: grey;
-    opacity: .7;
+    color: black;
+    opacity: .5;
 }
