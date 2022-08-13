@@ -87,3 +87,20 @@ button{
     color: black;
     opacity: .5;
 }
+
+
+@media screen and (max-width: 435px){
+
+    h1{
+        font-size: 4rem;
+    }
+
+    #todo-list{
+        width: 90%;
+    }
+
+    form input{
+        font-size: 2rem;
+        
+    }
+}
